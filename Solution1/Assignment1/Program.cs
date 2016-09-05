@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestApplication
+namespace Assignment1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Hello World");
         }
     }
 }
