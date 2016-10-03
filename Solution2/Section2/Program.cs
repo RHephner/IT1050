@@ -8,7 +8,10 @@
             p1.Spouse = new Person();
             //Update This
             //blah
+            Person p2 = new Person();
+            p2.Spouse = new Person();
 
+            //System.Console.wri
         }
     }
 }
