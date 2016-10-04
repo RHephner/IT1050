@@ -12,7 +12,7 @@
             p2.Spouse = new Person();
 
             // System.Console.Write("");
-            //p1.FirstName = System.Console.ReadLine();
+            
 
             System.Console.WriteLine("[ Enter Information for p1 ]");
             System.Console.WriteLine("");
