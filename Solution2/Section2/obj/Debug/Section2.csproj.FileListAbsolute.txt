@@ -1,7 +1,0 @@
-c:\users\s01151735\documents\visual studio 2013\Projects\Solution2\Section2\bin\Debug\Section2.exe.config
-C:\Users\Ryan\Desktop\GitHub\IT1050\Solution2\Section2\bin\Debug\Section2.exe.config
-C:\Users\Ryan\Desktop\GitHub\IT1050\Solution2\Section2\obj\Debug\Section2.csprojResolveAssemblyReference.cache
-C:\Users\Ryan\Desktop\GitHub\IT1050\Solution2\Section2\bin\Debug\Section2.exe
-C:\Users\Ryan\Desktop\GitHub\IT1050\Solution2\Section2\bin\Debug\Section2.pdb
-C:\Users\Ryan\Desktop\GitHub\IT1050\Solution2\Section2\obj\Debug\Section2.exe
-C:\Users\Ryan\Desktop\GitHub\IT1050\Solution2\Section2\obj\Debug\Section2.pdb
