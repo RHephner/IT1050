@@ -19,9 +19,9 @@ namespace Section3
 
         }
   
-     public int SetGrade()
+     public void SetGrade(int x)
         {
-          return this.Grade;
+          this.Grade = x;
         }
 
      public void Print()

@@ -16,7 +16,8 @@ namespace Section3
 
         public void SetStudentGrade(Student student, int grade)
         {
-            
+            student.SetGrade(grade);
+
         }
 
         public void Print()
