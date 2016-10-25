@@ -20,6 +20,11 @@ namespace Section3
 
         }
 
+        public string GetInstructorandCourse()
+        {
+            return this.Name + " in  " + this.CourseName + " class. ";
+        }
+
         public void Print()
         {
             string output = Name;

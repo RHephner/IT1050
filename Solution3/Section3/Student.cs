@@ -23,10 +23,19 @@ namespace Section3
         {
           this.Grade = x;
         }
+    
 
-     public void Print()
+    public void StudentInfo(string sstudent, int sscore, Instructor tteacher)
+
         {
+            System.Console.WriteLine("Student: " + sstudent + " has a grade of " + sscore + " for " + tteacher.GetInstructorandCourse());
 
+        }
+
+     public void PrintStudent()
+        {
+            StudentInfo(this.Name, this.Grade, this.Teacher);
+            
         }
 
 

@@ -17,9 +17,13 @@ namespace Section3
             John.SetStudentGrade(Jane, 95);
             John.SetStudentGrade(Joe, 85);
             Mike.SetStudentGrade(Melissa, 90);
-            Mike.SetStudentGrade(Matt, 90);
+            Mike.SetStudentGrade(Matt, 92);
 
-
+            Jane.PrintStudent();
+            Joe.PrintStudent();
+            Melissa.PrintStudent();
+            Matt.PrintStudent();
+            System.Console.Read();
         }
     }
 }
