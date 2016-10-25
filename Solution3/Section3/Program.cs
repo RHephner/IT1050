@@ -14,15 +14,23 @@ namespace Section3
             Student Melissa = new Student("Melissa Williams", Mike);
             Student Matt = new Student("Matt Monahugh", Mike);
 
+            
             John.SetStudentGrade(Jane, 95);
             John.SetStudentGrade(Joe, 85);
             Mike.SetStudentGrade(Melissa, 90);
             Mike.SetStudentGrade(Matt, 92);
 
+
+            System.Console.WriteLine("                            Student Gradebook");
+            System.Console.WriteLine("=============================================================================");
+
             Jane.PrintStudent();
             Joe.PrintStudent();
             Melissa.PrintStudent();
             Matt.PrintStudent();
+            
+
+            System.Console.WriteLine("=============================================================================");
             System.Console.Read();
         }
     }
