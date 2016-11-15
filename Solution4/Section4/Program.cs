@@ -7,7 +7,7 @@ namespace Section4
         {
             //P = Ticket + Concession - Discount
 
-            System.Console.WriteLine("Thank you for choosing the Cinemamark Theater!");
+            System.Console.WriteLine("Thank you for choosing the CinemaMark Theater!");
             System.Console.WriteLine("You're our favorite customer.");
             System.Console.WriteLine("Our current film is Tommy Wiseau's The Room...");
             System.Console.Write("Will you be attending a Matinee or Evening Showtime: ");
