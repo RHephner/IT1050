@@ -3,8 +3,12 @@ namespace Section5
 {
     class Board
     {
-        public int Size;
-        public string[][] Grid;
+        private int Size;
+        private string[][] Grid;
+        private int targX;
+        private int targY;
+        private int destX;
+        private int destY;
 
         public Board(int size)
         {
@@ -17,10 +21,8 @@ namespace Section5
             }
         }
         
-
         public void Fill()
-        {
-            
+        {            
             for (int i = 0; i < 8; i++)
             {
                 for (int j = 0; j < 8; j++)
@@ -66,12 +68,37 @@ namespace Section5
                     System.Console.Write(stringValue);
                    
                 }
-
                 System.Console.Write("|");
             }
             System.Console.WriteLine();
             System.Console.WriteLine("  +---+---+---+---+---+---+---+---+");
         }
 
+        public void YourMove()
+        {
+            while (targX <= 7 && targX >= 0 && targY <= 7 && targY >= 0 && destX <= 7 && destX >= 0 && destY <= 7 && destY >= 0)
+            {
+                System.Console.WriteLine(" ");
+                System.Console.Write("Enter Target X Coordinate Between 0 and 7: ");
+                targX = int.Parse(System.Console.ReadLine());
+                System.Console.Write("Enter Target Y Coordinate Between 0 and 7: ");
+                targY = int.Parse(System.Console.ReadLine());
+                System.Console.Write("Enter Destination X Coordinate Between 0 and 7: ");
+                destX = int.Parse(System.Console.ReadLine());
+                System.Console.Write("Enter Destination Y Coordinate Between 0 and 7: ");
+                destY = int.Parse(System.Console.ReadLine());
+
+                if (targX <= 7 && targX >= 0 && targY <= 7 && targY >= 0 && destX <= 7 && destX >= 0 && destY <= 7 && destY >= 0)
+                {
+                    this.Grid[destY][destX] = this.Grid[targY][targX];
+                    this.Grid[targY][targX] = "  ";
+                    System.Console.Clear();
+                    Print();
+                }                
+            }
+            System.Console.WriteLine("One of your Coordinates is not on the Chessboard!");
+            System.Console.WriteLine("This Program will now Exit");
+            System.Threading.Thread.Sleep(5000);            
+        }
     }
 }
