@@ -7,7 +7,9 @@ namespace Section5
         {
             Board b = new Board(8);
             b.Fill();
+            b.RemoveX();
             b.Print();
+            
             System.Console.ReadKey();
         }
     }

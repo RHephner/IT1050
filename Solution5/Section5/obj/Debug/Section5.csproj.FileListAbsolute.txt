@@ -4,3 +4,9 @@ c:\users\s01151735\documents\visual studio 2013\Projects\Solution5\Section5\bin\
 c:\users\s01151735\documents\visual studio 2013\Projects\Solution5\Section5\bin\Debug\Section5.pdb
 c:\users\s01151735\documents\visual studio 2013\Projects\Solution5\Section5\obj\Debug\Section5.exe
 c:\users\s01151735\documents\visual studio 2013\Projects\Solution5\Section5\obj\Debug\Section5.pdb
+C:\Users\Ryan\Desktop\GitHub\IT1050\Solution5\Section5\bin\Debug\Section5.exe.config
+C:\Users\Ryan\Desktop\GitHub\IT1050\Solution5\Section5\obj\Debug\Section5.exe
+C:\Users\Ryan\Desktop\GitHub\IT1050\Solution5\Section5\obj\Debug\Section5.pdb
+C:\Users\Ryan\Desktop\GitHub\IT1050\Solution5\Section5\bin\Debug\Section5.exe
+C:\Users\Ryan\Desktop\GitHub\IT1050\Solution5\Section5\bin\Debug\Section5.pdb
+C:\Users\Ryan\Desktop\GitHub\IT1050\Solution5\Section5\obj\Debug\Section5.csprojResolveAssemblyReference.cache

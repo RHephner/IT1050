@@ -16,9 +16,11 @@ namespace Section5
                 this.Grid[i] = new string[size];
             }
         }
+        
 
         public void Fill()
         {
+            
             for (int i = 0; i < 8; i++)
             {
                 for (int j = 0; j < 8; j++)
@@ -28,25 +30,35 @@ namespace Section5
             }    
         }
 
-        //public void RemoveExtra()
-        //{
-        //    for (int i = 2; i <= 5; i++)
-        //    {
-        //        for (int j = 0; j < 8; j++)
-        //        {
-        //            this.Grid[i][j] = "  ";
-        //        }
-        //    }
-        //}
+        public void RemoveX()
+        {
+            for (int i = 2; i <= 5; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                    this.Grid[i][j] = "  ";
+                }
+            }
+        }
 
         public void Print()
         {
+            int xGrid = -1;
+            int yGrid = -1;
+            System.Console.Write("    ");
+
+            foreach (string[] column in Grid)
+            {
+                xGrid++;
+                System.Console.Write(xGrid + "   ");
+            }
             foreach (string[] row in Grid)
             {
-               
-                System.Console.WriteLine();
-               
-                System.Console.WriteLine("+---+---+---+---+---+---+---+---+");
+                 yGrid++;
+                System.Console.WriteLine();                     
+                System.Console.WriteLine("  +---+---+---+---+---+---+---+---+");
+                System.Console.Write(yGrid + " ");
+
                 foreach (string stringValue in row)
                 {
                     
@@ -56,11 +68,9 @@ namespace Section5
                 }
 
                 System.Console.Write("|");
-                
-                
             }
             System.Console.WriteLine();
-            System.Console.WriteLine("+---+---+---+---+---+---+---+---+");
+            System.Console.WriteLine("  +---+---+---+---+---+---+---+---+");
         }
 
     }
