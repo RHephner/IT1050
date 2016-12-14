@@ -11,6 +11,7 @@ namespace Final1050
 
         public string GetName()
         { return Name; }
+        //created method per instructions, however method is not called?
 
         public double GetWeight()
         { return Weight; }

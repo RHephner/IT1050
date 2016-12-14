@@ -9,12 +9,14 @@ namespace Final1050
             elevator1.AddOccupant((new Passenger("A1", 180)), 0);
             elevator1.AddOccupant((new Passenger("A2", 220)), 1);
             bool elevator1IsOverMaxCapacity = elevator1.IsOverMaxCapacity();
+            //debug shows value of bool as false for elevator1
 
             Elevator elevator2 = new Elevator(3, 600);
             elevator2.AddOccupant((new Passenger("A1", 200)), 0);
             elevator2.AddOccupant((new Passenger("A2", 200)), 1);
             elevator2.AddOccupant((new Passenger("A3", 201)), 2);             
             bool elevator2IsOverMaxCapacity = elevator2.IsOverMaxCapacity();
+            //debug shows value of bool is true for elevator2
         }
     }
 }
